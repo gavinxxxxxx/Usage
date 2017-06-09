@@ -7,6 +7,12 @@
         android:id="@+id/group_action_layout"
         android:checkableBehavior="single">
         <item
+            android:id="@+id/nav_operate"
+            android:icon="@drawable/vt_short_text_24dp"
+            android:title="操作"
+            app:actionLayout="@layout/menu_action_operate"
+            app:showAsAction="always" />
+        <item
             android:id="@+id/nav_notice"
             android:icon="@drawable/vt_short_text_24dp"
             android:title="通知"

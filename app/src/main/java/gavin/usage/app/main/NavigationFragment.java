@@ -68,7 +68,7 @@ public class NavigationFragment extends BaseFragment<FragNavigationBinding> impl
     private void init() {
         TextView textView = (TextView) binding.navigation.getMenu().findItem(R.id.nav_tip).getActionView();
         textView.setText("9+");
-        TextView textView2 = (TextView) binding.navigation.getMenu().findItem(R.id.nav_msg).getActionView().findViewById(R.id.textView);
+        TextView textView2 = binding.navigation.getMenu().findItem(R.id.nav_msg).getActionView().findViewById(R.id.textView);
         textView2.setText("提示信息");
         SwitchCompat switchCompat = (SwitchCompat) binding.navigation.getMenu().findItem(R.id.nav_switch).getActionView();
         switchCompat.setChecked(true);
